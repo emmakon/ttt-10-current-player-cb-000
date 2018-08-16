@@ -10,10 +10,10 @@ end
 
 def current_player(board)
   board.each do |player|
-  if turn_count(board).even?
+    if turn_count(board).even?
     player = "X"
-  else
+    else
     player = "O"
+   end
   end
-end
 end
